@@ -1,0 +1,33 @@
+
+.container-fluid{
+    height: 8vh;
+    background-color:whitesmoke;
+    box-shadow: 5px 15px 5px 6px lightblue;
+          }
+  .nav-section{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    font-size: 2vmin;
+  }
+  .nav-link{
+    text-decoration: none;     /* Removes underline */
+  color: #333;               /* Dark text color */
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  }
+  .d-flex{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .me-2{
+    width: 40%;
+  }
+  .btn-outline-success{
+    width: 25%;
+  }
