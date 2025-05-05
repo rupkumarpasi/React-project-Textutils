@@ -1,7 +1,9 @@
 .alert{
-    width: 30%;
+    width: 90%;
+    margin-left: 5%;
     height:  8vmin;
     color: black;
     font-weight: 600;
-    font-size: large;
+   font-size: 2vmin;
+    
 }
