@@ -24,11 +24,15 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
   }
   .me-2{
     width: 40%;
   }
   .btn-outline-success{
     width: 25%;
+  }
+  .form-check-input{
+    /* width: 100%; */
+    margin-top:1.5vmin;
   }

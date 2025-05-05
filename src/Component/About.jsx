@@ -9,7 +9,7 @@ export default function About(props) {
   const headingClass = `text-${props.mode === 'dark' ? 'white' : 'dark'}`;
   const headingbg = `bg-${props.mode === 'dark'?'black':'white'}`;
   return (
-    <div style={{display:"flex",alignItems:"center",flexDirection:"column", marginTop:"2vmin"}} id="about-main">
+    <div style={{display:"flex",alignItems:"center",flexDirection:"column", marginTop:"10vmin"}} id="about-main">
     <div className="accordion" id="accordionExample" style={{width:"60%"}}>
     <div className={`"accordion-item" ${headingClass} ${headingbg}`}>
       <h2 className="accordion-header">
