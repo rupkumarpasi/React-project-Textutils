@@ -77,7 +77,7 @@ const headingClass = `text-${props.mode === 'dark' ? 'white' : 'dark'}`;
 <button type='submit' className='btn btn-primary' onClick = {cleartext} >Clear text</button>
  <button type='submit' onClick={copytext} className="btn btn-primary">Copy text</button>
     </div>
-    <h4 className={`mx-2 ${headingClass}`}> {text.length} characters and {text.trim() === "" ? 0 : text.trim().split(" ").length} words</h4>
+    <h4 className={`mx-2 ${headingClass}`}> |  {text.length} characters  | and |  {text.trim() === "" ? 0 : text.trim().split(" ").length} words  | </h4>
     </form>
   )}
   // Navform.propTypes = { title: PropTypes.string, password: PropTypes.string}
